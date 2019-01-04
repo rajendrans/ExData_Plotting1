@@ -1,3 +1,8 @@
+## Instruction to view assignment files
+### * pictires ( png files ) - click "figure" folder and find all files start with "plot*.png"
+### * source code ( R files ) - click "src" folder and find the R scripts
+
+
 ## Introduction
 
 This assignment uses data from
