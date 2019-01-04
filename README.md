@@ -1,7 +1,7 @@
-## Instruction to view assignment files
+## Instruction to view assignment files and run scripts
 ### * pictires ( png files ) - click "figure" folder and find all files start with "plot*.png"
 ### * source code ( R files ) - click "src" folder and find the R scripts
-
+### * To run scripts ( R files ) - once download to the working directory then type source("plot1.R") or source("plot2.R"), etc
 
 ## Introduction
 
