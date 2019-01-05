@@ -18,6 +18,7 @@
     rm(td)
 
     dev.new(width = 480, height = 480, unit = "px")
+    par(mar=c(5.1, 5.1, 4.1, 2.1))
     par(mfrow=c(2,2))
     plot(plot_data$DT, as.numeric(plot_data$Global_active_power)/1000, 
                              type = "l", lty = 1,  xlab="", ylab="Global Active Power (Kilowatts)")

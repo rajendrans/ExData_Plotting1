@@ -16,6 +16,7 @@
     rm(td)
 
     dev.new(width = 480, height = 480, unit = "px")
+    par(mar=c(5.1, 5.1, 4.1, 2.1))
     hist(as.numeric(plot_data$Global_active_power)/1000, col="red",  ylim=c(0, 1200), 
                                         main="Global Active Power", xlab="Global Active Power (kilowatts)" )
     

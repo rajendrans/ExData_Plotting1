@@ -18,6 +18,7 @@
     rm(td)
 
     dev.new(width = 480, height = 480, unit = "px")
+    par(mar=c(5.1, 5.1, 4.1, 2.1))
     plot(plot_data$DT, as.numeric(plot_data$Sub_metering_1), type = "n", lty = 1, xlab="", ylab="Energy sub metering")
     lines(plot_data$DT, as.numeric(plot_data$Sub_metering_1),  lty = 1,  col="black")
     lines(plot_data$DT, as.numeric(plot_data$Sub_metering_2),  lty = 1,  col="red")
